@@ -20,7 +20,7 @@ class Logs extends Component {
     }
 
     componentDidMount() {
-        fetch('/api/logs')
+        fetch('http://localhost:4000/logs')
             .then(function(response) {
                 return response.json();
             })
