@@ -23,7 +23,7 @@ class Profile extends Component {
         };
         
     
-        fetch('http://localhost:4000', {
+        fetch('/api', {
             method: 'POST',
             mode: 'cors',
             headers: {
